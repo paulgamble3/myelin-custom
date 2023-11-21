@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/c19e9c5d-4e1f-4581-a725-49cb971e58dc/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJDb3J0ZXogV2lnZ2lucyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/c19e9c5d-4e1f-4581-a725-49cb971e58dc/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkNvcnRleiBXaWdnaW5zIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -10,12 +10,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Cortez Wiggins",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -30,7 +32,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/f337d834-2040-4aba-a330-9c48b22e4632/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJFZHVhcmRvIEhhcmR5Iiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/f337d834-2040-4aba-a330-9c48b22e4632/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkVkdWFyZG8gSGFyZHkiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -40,12 +42,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Eduardo Hardy",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -60,7 +64,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/fd75f83a-a74d-47ea-afa6-4c72232110d9/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJFbWlsZSBSaXZlcnMiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/fd75f83a-a74d-47ea-afa6-4c72232110d9/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkVtaWxlIFJpdmVycyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -70,12 +74,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Emile Rivers",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -90,7 +96,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/72a2b452-e04e-4cf7-9847-33db399ccbd0/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJUaGVsbWEgT2Rvbm5lbGwiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/72a2b452-e04e-4cf7-9847-33db399ccbd0/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IlRoZWxtYSBPZG9ubmVsbCIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -100,12 +106,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Thelma Odonnell",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -120,7 +128,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/71697be2-49e3-4338-9d46-3fe33146b165/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJKb24gQ2hhdmV6Iiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/71697be2-49e3-4338-9d46-3fe33146b165/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkpvbiBDaGF2ZXoiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -130,12 +138,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Jon Chavez",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -150,7 +160,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/56a73b70-2f2f-4342-a7d4-ab506d116dd6/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJEYW1pYW4gQmVudG9uIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/56a73b70-2f2f-4342-a7d4-ab506d116dd6/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkRhbWlhbiBCZW50b24iLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -160,12 +170,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Damian Benton",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -180,7 +192,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/62532459-40f8-4f4d-bc74-8c4669b075cd/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJDYXJsYSBBcm5vbGQiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/62532459-40f8-4f4d-bc74-8c4669b075cd/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkNhcmxhIEFybm9sZCIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -190,12 +202,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Carla Arnold",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -210,7 +224,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/dfa2b342-71ee-444d-b5be-5c3c14744192/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJPbGEgRmFycmVsbCIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/dfa2b342-71ee-444d-b5be-5c3c14744192/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6Ik9sYSBGYXJyZWxsIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -220,12 +234,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Ola Farrell",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -240,7 +256,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/31bf07f7-404e-49a4-9466-cd8ea9073f7b/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJCZXJuYWRpbmUgUGVjayIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/31bf07f7-404e-49a4-9466-cd8ea9073f7b/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkJlcm5hZGluZSBQZWNrIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -250,12 +266,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Bernadine Peck",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -270,7 +288,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/b5267681-242d-42ef-bcce-44b2f4ec1ab5/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJCZW5lZGljdCBPbGl2ZXIiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/b5267681-242d-42ef-bcce-44b2f4ec1ab5/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkJlbmVkaWN0IE9saXZlciIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -280,12 +298,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Benedict Oliver",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -300,7 +320,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/3257cd73-3cfa-42c3-97b7-82045a4e610f/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJBbGV4IEdhdGVzIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/3257cd73-3cfa-42c3-97b7-82045a4e610f/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkFsZXggR2F0ZXMiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -310,12 +330,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Alex Gates",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
@@ -330,7 +352,7 @@
     }
   },
   {
-    "url": "https://eval.hippocraticdev.com:447/eval/patients/43e654fa-861f-44da-b1fc-7424423522da/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiXSwidGVtcGxhdGUiOiJuZWVsX3YyIiwidHRzIjoiZWxldmVuX2xhYnNfc29mdF9nZW50bGUiLCJhc3IiOiJkZy1lbmhhbmNlZCIsInNjcmlwdElkIjoiNjE5OWQ0M2EtMWMwYS00YzQzLTlkOGQtYjA5MGI3MTc3NWQxIiwicGF0aWVudE5hbWUiOiJBbmEgQWd1aXJyZSIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/43e654fa-861f-44da-b1fc-7424423522da/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiRDExX0xFUFRPTiIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6dHJ1ZSwic3VwcG9ydEVuZ2luZXMiOlsiZG9iLXZlcmlmaWNhdGlvbi1lbmdpbmUiLCJpZGVudGl0eS12ZXJpZmljYXRpb24tZW5naW5lIiwic3BlYWtlci1lbmdpbmUiLCJraWNrb3V0LWVuZ2luZSJdLCJ0ZW1wbGF0ZSI6Im5lZWxfdjIiLCJ0dHMiOiJlbGV2ZW5fbGFic19zb2Z0X2dlbnRsZSIsImFzciI6ImRnLWVuaGFuY2VkIiwic2NyaXB0SWQiOiI2MTk5ZDQzYS0xYzBhLTRjNDMtOWQ4ZC1iMDkwYjcxNzc1ZDEiLCJtZXRob2QiOiJ0ZWxlcGhvbmUiLCJwYXRpZW50TmFtZSI6IkFuYSBBZ3VpcnJlIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
     "config": {
       "phoneNumber": "",
       "model": "D11_LEPTON",
@@ -340,12 +362,14 @@
       "supportEngines": [
         "dob-verification-engine",
         "identity-verification-engine",
-        "speaker-engine"
+        "speaker-engine",
+        "kickout-engine"
       ],
       "template": "neel_v2",
       "tts": "eleven_labs_soft_gentle",
       "asr": "dg-enhanced",
       "scriptId": "6199d43a-1c0a-4c43-9d8d-b090b71775d1",
+      "method": "telephone",
       "patientName": "Ana Aguirre",
       "otherSettings": {
         "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
