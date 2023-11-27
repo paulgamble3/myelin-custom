@@ -21,6 +21,7 @@ def sample_kickout_details(call_type):
         "blood in urine":["Orange", "Yellow"],
         "unable to urinate":["Orange", "Yellow"],
         "Shortness of Breath":["Yellow"],
+        "Refuses to talk to Rachel": ["Orange", "White", "Green"]
     }
 
     call_type_symptoms = {
