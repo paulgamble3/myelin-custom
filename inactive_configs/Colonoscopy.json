@@ -1,0 +1,170 @@
+[
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/05125740-2891-4ab1-9e2e-ab491a26ca91/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbImtpY2tvdXQtZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQiLCJzY3JpcHRJZCI6ImFjZmU0Y2FjLWY0MWMtNDBlYS1iMzIzLTczOWU1MTdjODQ1OSIsInBhdGllbnROYW1lIjoiSmFuZXQgV2FuZyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "kickout-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced",
+      "scriptId": "acfe4cac-f41c-40ea-b323-739e517c8459",
+      "patientName": "Janet Wang",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/f6667c6b-c45d-4803-8142-48af986eac55/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbImtpY2tvdXQtZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQiLCJzY3JpcHRJZCI6ImFjZmU0Y2FjLWY0MWMtNDBlYS1iMzIzLTczOWU1MTdjODQ1OSIsInBhdGllbnROYW1lIjoiWmFyaWFoIFdhbmciLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "kickout-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced",
+      "scriptId": "acfe4cac-f41c-40ea-b323-739e517c8459",
+      "patientName": "Zariah Wang",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/6e51d816-ef80-4ae4-8456-e4832d627092/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbImtpY2tvdXQtZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQiLCJzY3JpcHRJZCI6ImFjZmU0Y2FjLWY0MWMtNDBlYS1iMzIzLTczOWU1MTdjODQ1OSIsInBhdGllbnROYW1lIjoiU2FpZ2UgV2FuZyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "kickout-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced",
+      "scriptId": "acfe4cac-f41c-40ea-b323-739e517c8459",
+      "patientName": "Saige Wang",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/4907424f-198b-4615-ab78-9c3ef6f73e4d/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbImtpY2tvdXQtZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQiLCJzY3JpcHRJZCI6ImFjZmU0Y2FjLWY0MWMtNDBlYS1iMzIzLTczOWU1MTdjODQ1OSIsInBhdGllbnROYW1lIjoiQ2VsaWEgV2FuZyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "kickout-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced",
+      "scriptId": "acfe4cac-f41c-40ea-b323-739e517c8459",
+      "patientName": "Celia Wang",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/0cd7f98a-0ade-41e0-b937-43d8b60df05b/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbImtpY2tvdXQtZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQiLCJzY3JpcHRJZCI6ImFjZmU0Y2FjLWY0MWMtNDBlYS1iMzIzLTczOWU1MTdjODQ1OSIsInBhdGllbnROYW1lIjoiS2lhcmEgV2FuZyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "kickout-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced",
+      "scriptId": "acfe4cac-f41c-40ea-b323-739e517c8459",
+      "patientName": "Kiara Wang",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/2e872135-88ca-4ef8-bdf7-383de55cdd65/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbImtpY2tvdXQtZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQiLCJzY3JpcHRJZCI6ImFjZmU0Y2FjLWY0MWMtNDBlYS1iMzIzLTczOWU1MTdjODQ1OSIsInBhdGllbnROYW1lIjoiTWVsaW5hIFdhbmciLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "kickout-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced",
+      "scriptId": "acfe4cac-f41c-40ea-b323-739e517c8459",
+      "patientName": "Melina Wang",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  }
+]
